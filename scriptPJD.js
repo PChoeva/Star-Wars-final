@@ -102,10 +102,11 @@ function attachDataEvents() {
         }else {
             contentItemData($(this).text().toLowerCase());
         }
-
+        console.log('pressed button:' + $(this).text());
 
     });
 }
+
 function returnToIndexBackground(){
     $('main')
         .css('background', 'none');
@@ -120,6 +121,7 @@ function showHome() {
     $('.container-content').empty();
     $(".title").show();
     $(".carousel").show();
+    console.log('show home');
 }
 
 attachDataEvents();
@@ -604,7 +606,7 @@ function attachBackClickEvent() {
     })
 }
 
-attachDataEvents();
+// attachDataEvents();
 attachEvents();
 attachBackClickEvent();
 // obtainSpaceshipData('X-Wing');
