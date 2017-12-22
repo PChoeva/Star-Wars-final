@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Starjedi';
+    src: url('Starjedi.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+}
+.info-pic{
+    width: 80%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+img{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    }
+.info{
+    color: white;
+}
+ul{
+    width: 90%;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+.info-text{
+    color: white;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}
+.section-head{
+    background-color: #333333;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+    font-size: 60px;
+    height: 80px;
+    margin: 25px 0;
+}
+p{
+    text-align: justify;
+    width: 90%;
+    margin: 0 auto;
+}
+
+main{
+
+    /*background: url(images/lukeskywalker/lukeskywalker-photo.png)top center no-repeat;*/
+}
+.head-name{
+    padding-top: 600px;
+    color: white;
+    font-size: 60px;
+    line-height: 50px;
+    width: 250px;
+    font-family: Starjedi;
+}
+.head-say{
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 35px;
+}

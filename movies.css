@@ -1,0 +1,138 @@
+@font-face {
+    font-family: starWars;
+    src: url(Starjedi.ttf);
+}
+
+body {
+    background: url("renderAll_images/background.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+
+    overflow-x: hidden;
+}
+
+.title {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: starWars;
+}
+.movie-title{
+    margin-top:110px;
+    margin-bottom:-70px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: starWars;
+}
+
+.heading {
+    font-size: 70px;
+    background-color: #333333;
+    width:80%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    /*width: 50px;*/
+    margin:0 auto;
+    margin-top: 2%;
+
+}
+
+/*body > main > div > div:nth-child(2) {*/
+    /*margin: 10em 0 0 15em;*/
+
+/*}*/
+
+.img-movie{
+    width: 500px;
+}
+
+.movie-info {
+    width: 27em;
+    color:white;
+    font-size:100%;
+    padding-top: 70px;
+}
+.cover{
+    margin:4em 0 0 0;
+}
+.container{
+    height: 100%;
+    width:100%;
+}
+.col-md-8{
+    text-align:center;
+    color:white;
+}
+.col-md-4{
+    margin-bottom:10em;
+}
+.return {
+    background-color: lightgray;
+    border-radius: 10px;
+    margin:10px auto;
+    width: 70px;
+    border:none;
+    cursor: pointer;
+}
+.img-responsive{
+    margin:0 auto;
+    text-align: right;
+    margin-left: 30px;
+    margin-top: 30px;
+    /*margin-left: 50px;*/
+}
+
+/*//Joro pravi*/
+
+.content-about {
+    margin: 30px auto;
+    display: flex;
+    text-align: center;
+    width:1000px;
+    padding-left:20px;
+}
+
+.active .carousel-caption{
+    bottom: -11px;
+}
+
+@media all and (max-width: 1000px){
+    .content-about{
+        max-width: 100%;
+        display: block;
+    }
+
+    .info-movie {
+        max-width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .img-movie{
+        max-width: 100%;
+        display: block;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .movie-info {
+        width: 60%;
+        margin: 0 auto;
+        /* width: 27em; */
+        text-align: center;
+        color: white;
+        font-size: 100%;
+        padding-top: 70px;
+        /* margin-left: 29%; */
+    }
+}
+
+
+
+
+

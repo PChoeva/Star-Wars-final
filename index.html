@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <!--<link href="styles.css" rel="stylesheet">-->
+    <link href="Joro-style.css" rel="stylesheet">
+    <link href="movies.css" rel="stylesheet">
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+    <title>Star Wars</title>
+
+</head>
+<body>
+
+
+<main>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+
+            <div class="navbar-div">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item ml-4">
+                        <a class="nav-link text-white">Home</a>
+                    </li>
+                    <li class="nav-item ml-4">
+                        <a class="nav-link text-white">Characters</a>
+                    </li>
+                    <li class="nav-item ml-4">
+                        <a class="nav-link text-white">Planets</a>
+                    </li>
+                    <li class="nav-item ml-4">
+                        <a class="nav-link text-white">Spaceships</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+        <!--<div class="container-content">-->
+
+        <!--</div>-->
+        <section class="title">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h1 class="font-weight-bold">Star Wars</h1>
+                    <h2 class="font-weight-light">May the force be with you...</h2>
+                </div>
+            </div>
+        </section>
+    </header>
+    <div class="container-content">
+
+    </div>
+    <div class="row">
+
+        <div class="carousel">
+            <div id="star-wars" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#star-wars" data-slide-to="0" class="active"></li>
+                    <li data-target="#star-wars" data-slide-to="1"></li>
+                    <li data-target="#star-wars" data-slide-to="2"></li>
+                    <li data-target="#star-wars" data-slide-to="3"></li>
+                    <li data-target="#star-wars" data-slide-to="4"></li>
+                    <li data-target="#star-wars" data-slide-to="5"></li>
+                    <li data-target="#star-wars" data-slide-to="6"></li>
+                    <li data-target="#star-wars" data-slide-to="7"></li>
+
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+
+                        <img src="renderAll_images/movies/episode1.jpg" alt="Episode One" width="1100" height="500">
+                        <div class="carousel-caption  d-md-block">
+                            <h2>The Phantom<br>Menace</h2>
+                            <button class="movie-button">Episode I</button>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="renderAll_images/movies/episode2.jpg" alt="Episode Two" width="1100" height="500">
+                        <div class="carousel-caption  d-md-block">
+                            <h2>Attack of<br> The Clones</h2>
+                            <button class="movie-button">Episode II</button>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="renderAll_images/movies/episode3.jpg" alt="Episode Three" width="1100" height="500">
+                        <div class="carousel-caption d-md-block">
+                            <h2>Revenge of<br> The Sith</h2>
+                            <button class="movie-button">Episode III</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="renderAll_images/movies/episode4.jpg" alt="Episode Four" width="1100" height="500">
+                        <div class="carousel-caption d-md-block">
+                            <h2>A new hope</h2>
+                            <button class="movie-button">Episode IV</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="renderAll_images/movies/episode5.jpg" alt="Episode Five" width="1100" height="500">
+                        <div class="carousel-caption d-md-block">
+                            <h2>The empire<br>strikes back</h2>
+                            <button class="movie-button">Episode V</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="renderAll_images/movies/episode6.jpg" alt="Episode Six" width="1100" height="500">
+                        <div class="carousel-caption d-md-block">
+                            <h2>Return of <br> the jedi</h2>
+                            <button class="movie-button">Episode VI</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="renderAll_images/movies/episode7.jpg" alt="Episode Seven" width="1100" height="500">
+                        <div class="carousel-caption d-md-block">
+                            <h2>The force <br> awakens</h2>
+                            <button class="movie-button">Episode VII</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="renderAll_images/movies/episode8.jpg" alt="Episode Eight" width="1100" height="500">
+                        <div class="carousel-caption d-md-block">
+                            <h2>The last <br>jedi</h2>
+                            <button class="movie-button">Episode VIII</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#star-wars" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#star-wars" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</main>
+<footer>
+    <div class="footer">
+        <p>@Victoria Peak 2017</p>
+    </div>
+</footer>
+<!--<script src="movies.js"></script>-->
+<script src="scriptPJD.js"></script>
+</body>
+</html>
