@@ -1,3 +1,4 @@
+//Yuliyan
 $(document).ready(function () {
     $('.carousel .carousel-caption').css('zoom', $('.carousel').width() / 1250);
 });
@@ -51,7 +52,6 @@ $.ajax('https://star-wars-334ba.firebaseio.com/movies.json', {
 
                 let returnButton = $('<button>Return</button>').addClass('return');
 
-
                 $("main")
                     .append(h1Title)
                     .append(divRow);
@@ -83,8 +83,4 @@ $.ajax('https://star-wars-334ba.firebaseio.com/movies.json', {
             });
         }
     }
-});
-$('.nav-link').on('click', function (e) {
-    e.preventDefault();
-   console.log("test");
 });
