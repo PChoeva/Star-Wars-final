@@ -21,7 +21,7 @@ img{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 25px;
-    }
+}
 .info{
     color: white;
 }
@@ -56,12 +56,9 @@ p{
     margin: 0 auto;
 }
 
-main{
 
-    /*background: url(images/lukeskywalker/lukeskywalker-photo.png)top center no-repeat;*/
-}
 .head-name{
-    padding-top: 600px;
+    margin-top: 600px;
     color: white;
     font-size: 60px;
     line-height: 50px;
